@@ -73,7 +73,7 @@ const BlogsContainer = ({ data }) => {
         <div className="text-black hover:text-white mt-10 flex flex-col items-center justify-center">
           <Input placeholder="Enter your email"></Input>
           <a
-            href="#"
+            href="https://krupukkulit99.my.id"
             className="mt-4 transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-black hover:text-white rounded-lg border border-purple  hover:bg-purple"
           >
             Join The List

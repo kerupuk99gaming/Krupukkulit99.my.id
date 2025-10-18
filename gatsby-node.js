@@ -65,3 +65,9 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     })
   }
 }
+
+exports.onCreateWebpackConfig = ({ actions }) => {
+  actions.setWebpackConfig({
+    ignoreWarnings: [/the request of a dependency is an expression/i],
+  });
+};
