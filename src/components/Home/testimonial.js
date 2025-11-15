@@ -5,15 +5,15 @@ const Testimonial = () => {
   return (
     <div className="max-w-7xl mx-auto px-8 mt-14 mb-14">
       <Fade bottom>
-        <div className="w-full h-full  flex flex-row justify-between align-middle bg-[url('../images/holographic-background.webp')] p-12 rounded-lg xxs:flex-col xs:flex-col sm:flex-row xxs:p-5 lg:p-12">
+        <div className="w-full h-full  flex flex-row justify-between align-middle bg-[url('../images/kerupuk-2.jpg')] p-12 rounded-lg xxs:flex-col xs:flex-col sm:flex-row xxs:p-5 lg:p-12">
           <div className="w-3/4 xxs:w-full xs:w-full backdrop-blur-sm bg-white/30 p-10 rounded-lg lg:p-10">
             <div className="text-black font-semibold text-xl xxs:text-s xxs:font-normal sm:text-xl font-notoserif">
               "Kerupuk kulit sapi asli di sini benar-benar renyah dan gurih! Cocok banget buat teman makan atau camilan di rumah. Kualitasnya terjamin dan rasanya bikin nagih."
             </div>
             <div className="mt-10">
-              <h3 className="text-black text-2xl font-smibold">Budi Santoso</h3>
+              <h3 className="text-black text-2xl font-smibold">Pak Pendi</h3>
               <p className="text-black text-sm font-semibold opacity-50">
-                Pelanggan setia
+                Pelanggan Setia
               </p>
             </div>
           </div>

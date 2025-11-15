@@ -25,7 +25,7 @@ const Header = () => {
               <div className="rounded-md">
                 <a
                   href="/contact"
-                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple  hover:bg-transparent md:text-lg md:px-10 "
+                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-yellow text-white hover:text-black border border-yellow  hover:bg-transparent md:text-lg md:px-10 "
                 >
                   Hubungi Kami
                   <svg
@@ -48,7 +48,7 @@ const Header = () => {
               <div className="mt-3 sm:mt-0 sm:ml-3">
                 <a
                   href="/about"
-                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 border border-purple text-base font-medium rounded-md text-black hover:text-white bg-transparent hover:bg-purple md:py-3 md:text-lg md:px-10"
+                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 border border-yellow text-base font-medium rounded-md text-black hover:text-white bg-transparent hover:bg-yellow md:py-3 md:text-lg md:px-10"
                 >
                   Ketahui Lebih Lanjut
                 </a>
@@ -60,7 +60,7 @@ const Header = () => {
             <img
               className="rounded-xl w-auto h-full object-cover flex justify-center"
               src={hero}
-              alt=""
+              alt="kerupuk kulit sapi"
             ></img>
           </div>
         </div>

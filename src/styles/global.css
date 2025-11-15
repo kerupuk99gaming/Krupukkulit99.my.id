@@ -58,3 +58,41 @@ body {
 
 /* 404 page */ 
 .\34 04-p {display: flex; flex-direction: column; align-items: center; padding: 40px 0px;}
+
+
+/* CSS BARU COY!!!!!!!!!  */
+.bg-yellow {
+    --tw-bg-opacity: 1;
+    background-color: rgb(233 203 33 / var(--tw-bg-opacity));
+}
+
+.border-yellow {
+    --tw-border-opacity: 1;
+    border-color: rgb(233 203 33 / var(--tw-border-opacity));
+}
+
+.hover\:bg-yellow:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(233 203 33 / var(--tw-bg-opacity));
+}
+
+.bg-yellowg {
+    --tw-bg-opacity: 1;
+    background-color: rgb(219 150 0 / var(--tw-bg-opacity));
+}
+
+.border-yellowg {
+    --tw-border-opacity: 1;
+    border-color: rgb(219 150 0 / var(--tw-border-opacity));
+}
+
+.hover\:bg-yellowg:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(219 150 0 / var(--tw-bg-opacity));
+}
+
+.from-yellow {
+    --tw-gradient-from: #facc15 var(--tw-gradient-from-position); /* kuning */
+    --tw-gradient-to: rgb(250 204 21 / 0) var(--tw-gradient-to-position); /* kuning transparan */
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}

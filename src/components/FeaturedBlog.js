@@ -12,7 +12,7 @@ const FeaturedBlog = () => {
           <h3 className="text-black pl-4 text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
             Latest Posts
           </h3>
-          <div className="blog-hover bg-gradient-to-r from-pink to-purple border mt-10 border-gray-200 rounded-lg p-8 md:p-12 mb-8">
+          <div className="blog-hover bg-gradient-to-r from-yellow to-bg border mt-10 border-gray-200 rounded-lg p-8 md:p-12 mb-8">
             <h2 className="text-black text-3xl font-simibold mb-2">
               Kenapa Harus Kerupuk Kulit Sapi Asli?
             </h2>
@@ -21,9 +21,9 @@ const FeaturedBlog = () => {
             </p>
             <a
               href="/blog/blog-post"
-              className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-black hover:text-white rounded-lg border border-purple  hover:bg-purple"
+              className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-black hover:text-white rounded-lg border border-yellowg  hover:bg-yellowg"
             >
-              Continue Reading
+              Lanjut Membaca
               <svg
                 className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
                 aria-hidden="true"
@@ -51,9 +51,9 @@ const FeaturedBlog = () => {
               </p>
               <a
                 href="/blog/blog-post-1"
-                className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-black hover:text-white  rounded-lg border border-purple  hover:bg-purple"
+                className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-black hover:text-white  rounded-lg border border-yellow  hover:bg-yellow"
               >
-                Continue Reading
+                Lanjut Membaca
                 <svg
                   className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
                   aria-hidden="true"
@@ -80,9 +80,9 @@ const FeaturedBlog = () => {
               </p>
               <a
                 href="/blog/blog-post-2"
-                className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-black hover:text-white  rounded-lg border border-purple  hover:bg-purple"
+                className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-black hover:text-white  rounded-lg border border-yellow  hover:bg-yellow"
               >
-                Continue Reading
+                Lanjut Membaca
                 <svg
                   className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
                   aria-hidden="true"

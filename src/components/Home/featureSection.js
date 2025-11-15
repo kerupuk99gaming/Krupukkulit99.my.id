@@ -3,31 +3,32 @@ import Fade from "react-reveal/Fade"
 
 // Assets
 import HeroImage from "../../images/kerupuk-1.webp"
-import Image1 from "../../images/3D-liquid-abstract-1.webp"
-import Image2 from "../../images/3D-liquid-abstract.webp"
-import Image3 from "../../images/3D-liquid-abstract-3.webp"
+import Image1 from "../../images/kerupuk-bal2.jpg"
+import Image2 from "../../images/kerupuk-rame.jpg"
+import Image3 from "../../images/kerupuk-kecil.jpg"
+//
 
 const FeatureSection = () => {
   return (
     <div className="max-w-7xl mx-auto">
       <Fade bottom cascade>
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
-          <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
+          <div style={{ backgroundColor: "#facc15" }} className="w-1/3 p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
             <h3 className="text-black text-2xl">Gurih</h3>
-            <h4 className="mt-10 text-black  opacity-70 text-xl">Pake nanya!</h4>
+            <h4 className="mt-10 text-black opacity-70 text-xl">Pake nanya!</h4>
           </div>
 
-          <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Keriuk</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">Oh jelas</h4>
+          <div style={{ backgroundColor: "#facc15" }} className="w-1/3 p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
+            <h3 className="text-black text-2xl">Keriuk</h3>
+            <h4 className="mt-10 text-black opacity-70 text-xl">Oh jelas</h4>
           </div>
-          <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Tanpa bahan pengawet</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">Aseli cuy</h4>
+          <div style={{ backgroundColor: "#facc15" }} className="w-1/3 p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
+            <h3 className="text-black text-2xl">Tanpa bahan pengawet</h3>
+            <h4 className="mt-10 text-black opacity-70 text-xl">Aseli cuy</h4>
           </div>
-          <div className="lg:rounded-xl lg:w-1/3 lg:bg-dp bg-dp p-8 rounded-xl m-5 xxs:w-full xxs:bg-dp xxs:rounded-xl xs:w-full xs:bg-dp xs:rounded-xl sm:hidden md:hidden lg:block">
-            <h3 className="text-white text-2xl">Halal</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">100%</h4>
+          <div style={{ backgroundColor: "#facc15" }} className="lg:rounded-xl lg:w-1/3 p-8 rounded-xl m-5 xxs:w-full xxs:rounded-xl xs:w-full xs:rounded-xl sm:hidden md:hidden lg:block">
+            <h3 className="text-black text-2xl">Halal</h3>
+            <h4 className="mt-10 text-black opacity-70 text-xl">100%</h4>
           </div>
         </div>
       </Fade>
@@ -44,7 +45,7 @@ const FeatureSection = () => {
 
           <div className="lg:w-1/2 sm:text-center lg:text-right flex flex-col justify-center">
             <h2 className="text-black text-4xl font-semibold">KENAPA MEMILIH KERUPUK KULIT SAPI ASLI?</h2>
-            <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
+            <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-darkpurple to-purple">
               Gurih, Renyah, dan Sehat Setiap Saat!
             </h3>
 
@@ -56,17 +57,17 @@ const FeatureSection = () => {
               <div className="rounded-md">
                 <a
                   href="tel:#"
-                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple hover:bg-transparent md:text-lg md:px-10"
+                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-yellow text-white hover:text-black border border-yellow hover:bg-transparent md:text-lg md:px-10"
                 >
-                  Call Us Now
+                  Hubungi Kami
                 </a>
               </div>
               <div className="mt-3 sm:mt-0 sm:ml-3">
                 <a
                   href="/gallery"
-                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 border border-purple text-base font-medium rounded-md text-black hover:text-white bg-transparent hover:bg-purple md:py-3 md:text-lg md:px-10"
+                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 border border-yellow text-base font-medium rounded-md text-black hover:text-white bg-transparent hover:bg-yellow md:py-3 md:text-lg md:px-10"
                 >
-                  View Gallery
+                  Menu Kami
                   <svg
                     className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
                     aria-hidden="true"
@@ -91,7 +92,7 @@ const FeatureSection = () => {
 
       <Fade bottom cascade>
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row">
-          <div className="w-2/6 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-2/6">
+          <div style={{ backgroundColor: "#facc15" }} className="w-1/3 p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
             <span className="text-black font-semibold font-montserrat text-4xl">
               KEUNGGULAN PRODUK
             </span>
@@ -116,12 +117,12 @@ const FeatureSection = () => {
               </div>
             </div>
           </div>
-
-          <div className="w-4/6 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-4/6">
-            <h2 className="text-white text-4xl">
+          
+          <div style={{ backgroundColor: "#facc15" }} className="w-1/3 p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-4/6">
+            <h2 className="text-black text-4xl">
               Kelezatan Kerupuk Kulit Sapi Asli
             </h2>
-            <p className="mt-10 text-white opacity-70">
+            <p className="mt-10 text-black opacity-70">
               Setiap kerupuk kulit sapi asli kami dibuat dari kulit sapi pilihan, diolah secara higienis tanpa bahan pengawet. Rasakan kerenyahan dan gurihnya yang khas, cocok untuk camilan maupun pelengkap hidangan favorit keluarga Anda.
             </p>
           </div>
@@ -142,19 +143,19 @@ const FeatureSection = () => {
 
       <div className="mt-10 px-8">
         <h2 className="text-black text-4xl font-semibold opacity-70">
-          SIAP KIRIM KE SELURUH INDONESIA
+          SIAP KIRIM KE BEBERAPA TEMPAT DI TANGERANG
         </h2>
         <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
           Pesan Sekarang, Nikmati Kerenyahannya!
         </h3>
         <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
-          Kerupuk kulit sapi asli kami tersedia dalam berbagai ukuran kemasan dan siap dikirim ke seluruh Indonesia. Hubungi kami untuk pemesanan grosir maupun eceran.
+          Kerupuk kulit sapi asli kami tersedia dalam berbagai ukuran kemasan dan siap dikirim ke beberapa tempat di Tangerang. Hubungi kami untuk pemesanan grosir maupun eceran.
         </p>
         <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
           <div className="rounded-md">
             <a
               href="/contact/"
-              className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple hover:bg-transparent md:text-lg md:px-10"
+              className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-yellow text-white hover:text-black border border-yellow hover:bg-transparent md:text-lg md:px-10"
             >
               Hubungi Kami
             </a>
@@ -164,70 +165,35 @@ const FeatureSection = () => {
 
       <Fade bottom cascade>
         <div className="grid grid-cols-3 mt-10 gap-4 xxs:grid-cols-1 lg:grid-cols-3 px-5">
-          <div className="rounded-xl overflow-hidden relative hover:opacity-100 flex justify-center">
-            <img alt="Image" src={Image1}></img>
+          <div className="rounded-xl overflow-hidden relative hover:opacity-100 flex justify-center aspect-square">
+            <img alt="Image" src={Image1} className="w-full h-full object-cover" />
           </div>
-          <div className="rounded-xl overflow-hidden relative hover:opacity-100 flex justify-center">
-            <img alt="Image" src={Image2}></img>
+          <div className="rounded-xl overflow-hidden relative hover:opacity-100 flex justify-center aspect-square">
+            <img alt="Image" src={Image2} className="w-full h-full object-cover" />
           </div>
-          <div className="rounded-xl overflow-hidden relative hover:opacity-100 hidden lg:block ">
-            <img alt="Image" src={Image3}></img>
+          <div className="rounded-xl overflow-hidden relative hover:opacity-100 hidden lg:block aspect-square">
+            <img alt="Image" src={Image3} className="w-full h-full object-cover" />
           </div>
         </div>
       </Fade>
 
       <Fade bottom cascade>
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
-          <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-black text-2xl">v1.0.0</h3>
-            <h4 className="mt-10 text-black opacity-70 text-xl">Released</h4>
+          <div style={{ backgroundColor: "#facc15" }} className="w-1/3 p-8 rounded-xl m-5">
+            <h3 className="text-black text-2xl font-bold">10.000+</h3>
+            <h4 className="mt-10 text-black opacity-70 text-xl">Pelanggan Puas</h4>
           </div>
-
-          <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Fork</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">
-              PR's welcome
-            </h4>
+          <div style={{ backgroundColor: "#facc15" }} className="w-1/3 p-8 rounded-xl m-5">
+            <h3 className="text-black text-2xl font-bold">Kami dagangkan di beberapa Kota</h3>
+            <h4 className="mt-10 text-black opacity-70 text-xl">Merak, Cilegon, Serang, dan Tangerang</h4>
           </div>
-          <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Stars</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">
-              Give support
-            </h4>
+          <div style={{ backgroundColor: "#facc15" }} className="w-1/3 p-8 rounded-xl m-5">
+            <h3 className="text-black text-2xl font-bold">Sejak 2010</h3>
+            <h4 className="mt-10 text-black opacity-70 text-xl">Pengalaman Terpercaya</h4>
           </div>
         </div>
       </Fade>
-      {/* 
-      <div className="mt-10 px-8">
-        <h2 className="text-black text-4xl font-semibold text-gradient bg-gradient-to-r from-pink to-purple">
-          {" "}
-          Integrations
-        </h2>
-        <h3 className="text-black mt-5 font-bold text-6xl xxs:text-lg xs:text-xl sm:text-xl lg:text-6xl">
-          Discover, connect, and configure
-        </h3>
-        <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
-        </p>
-        <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-          <div className="rounded-md">
-            <a
-              href="/contact/"
-              className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-purple border border-purple hover:bg-transparent md:text-lg md:px-10"
-            >
-              Send Enquiry
-            </a>
-          </div>
-        </div>
-      </div> */}
+      
     </div>
   )
 }
