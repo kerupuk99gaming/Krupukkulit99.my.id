@@ -1,14 +1,14 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 
-import Image3 from "../../images/holographic-background-1.webp"
+import Image3 from "../../images/kerupuk-home.webp"
 
 const AboutHeader = () => {
   return (
     <Fade>
       <div className="max-w-7xl mx-auto mt-10">
         <div className="overflow-hidden rounded-xl max-h-96 m-4">
-          <img alt="Image" src={Image3}></img>
+          <img alt="Image" src={Image3} className="w-full h-full object-contain"></img>
         </div>
         <div className="mt-10 px-8">
           <h1 className="font-bold text-xl text-black text-gradient bg-gradient-to-r from-pink to-purple">

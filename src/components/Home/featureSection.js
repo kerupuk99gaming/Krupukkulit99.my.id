@@ -11,22 +11,22 @@ import Image3 from "../../images/kerupuk-kecil.jpg"
 const FeatureSection = () => {
   return (
     <div className="max-w-7xl mx-auto">
+      
       <Fade bottom cascade>
-        <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
-          <div style={{ backgroundColor: "#facc15" }} className="w-1/3 p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
+        <div className="mt-10 flex flex-row flex-wrap justify-center align-middle text-center px-2">
+          <div style={{ backgroundColor: "#facc15" }} className="w-1/4 p-8 rounded-xl mx-2 my-5 xxs:w-full xs:w-full sm:w-1/5">
             <h3 className="text-black text-2xl">Gurih</h3>
             <h4 className="mt-10 text-black opacity-70 text-xl">Pake nanya!</h4>
           </div>
-
-          <div style={{ backgroundColor: "#facc15" }} className="w-1/3 p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
+          <div style={{ backgroundColor: "#facc15" }} className="w-1/4 p-8 rounded-xl mx-2 my-5 xxs:w-full xs:w-full sm:w-1/5">
             <h3 className="text-black text-2xl">Keriuk</h3>
             <h4 className="mt-10 text-black opacity-70 text-xl">Oh jelas</h4>
           </div>
-          <div style={{ backgroundColor: "#facc15" }} className="w-1/3 p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
+          <div style={{ backgroundColor: "#facc15" }} className="w-1/4 p-8 rounded-xl mx-2 my-5 xxs:w-full xs:w-full sm:w-1/5">
             <h3 className="text-black text-2xl">Tanpa bahan pengawet</h3>
             <h4 className="mt-10 text-black opacity-70 text-xl">Aseli cuy</h4>
           </div>
-          <div style={{ backgroundColor: "#facc15" }} className="lg:rounded-xl lg:w-1/3 p-8 rounded-xl m-5 xxs:w-full xxs:rounded-xl xs:w-full xs:rounded-xl sm:hidden md:hidden lg:block">
+          <div style={{ backgroundColor: "#facc15" }} className="w-1/4 p-8 rounded-xl mx-2 my-5 xxs:w-full xs:w-full sm:w-1/5">
             <h3 className="text-black text-2xl">Halal</h3>
             <h4 className="mt-10 text-black opacity-70 text-xl">100%</h4>
           </div>
@@ -91,8 +91,8 @@ const FeatureSection = () => {
       </div>
 
       <Fade bottom cascade>
-        <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row">
-          <div style={{ backgroundColor: "#facc15" }} className="w-1/3 p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
+        <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row px-4">
+          <div style={{ backgroundColor: "#facc15" }} className="w-1/3 p-8 rounded-xl mx-2 my-5 xxs:w-full xs:w-full sm:w-1/3">
             <span className="text-black font-semibold font-montserrat text-4xl">
               KEUNGGULAN PRODUK
             </span>
@@ -118,7 +118,7 @@ const FeatureSection = () => {
             </div>
           </div>
           
-          <div style={{ backgroundColor: "#facc15" }} className="w-1/3 p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-4/6">
+          <div style={{ backgroundColor: "#facc15" }} className="w-1/3 p-8 rounded-xl mx-2 my-5 xxs:w-full xs:w-full sm:w-4/6">
             <h2 className="text-black text-4xl">
               Kelezatan Kerupuk Kulit Sapi Asli
             </h2>
