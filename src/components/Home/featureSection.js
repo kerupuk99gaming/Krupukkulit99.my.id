@@ -185,7 +185,7 @@ const FeatureSection = () => {
           </div>
           <div style={{ backgroundColor: "#facc15" }} className="w-1/4 p-8 rounded-xl mx-2 my-5 xxs:w-full xs:w-full sm:w-1/4">
             <h3 className="text-black text-2xl font-bold">Kami dagangkan di beberapa Kota</h3>
-            <h4 className="mt-10 text-black opacity-70 text-xl">Merak, Cilegon, Serang, dan Tangerang</h4>
+            <h4 className="mt-10 text-black opacity-70 text-xl">Tangerang ,Serang ,Cilegon dan Merak</h4>
           </div>
           <div style={{ backgroundColor: "#facc15" }} className="w-1/4 p-8 rounded-xl mx-2 my-5 xxs:w-full xs:w-full sm:w-1/4">
             <h3 className="text-black text-2xl font-bold">Sejak 2010</h3>
