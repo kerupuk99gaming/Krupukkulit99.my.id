@@ -179,15 +179,15 @@ const FeatureSection = () => {
 
       <Fade bottom cascade>
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
-          <div style={{ backgroundColor: "#facc15" }} className="w-1/3 p-8 rounded-xl m-5">
+          <div style={{ backgroundColor: "#facc15" }} className="w-1/3 p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
             <h3 className="text-black text-2xl font-bold">10.000+</h3>
             <h4 className="mt-10 text-black opacity-70 text-xl">Pelanggan Puas</h4>
           </div>
-          <div style={{ backgroundColor: "#facc15" }} className="w-1/3 p-8 rounded-xl m-5">
+          <div style={{ backgroundColor: "#facc15" }} className="w-1/3 p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
             <h3 className="text-black text-2xl font-bold">Kami dagangkan di beberapa Kota</h3>
             <h4 className="mt-10 text-black opacity-70 text-xl">Merak, Cilegon, Serang, dan Tangerang</h4>
           </div>
-          <div style={{ backgroundColor: "#facc15" }} className="w-1/3 p-8 rounded-xl m-5">
+          <div style={{ backgroundColor: "#facc15" }} className="w-1/3 p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
             <h3 className="text-black text-2xl font-bold">Sejak 2010</h3>
             <h4 className="mt-10 text-black opacity-70 text-xl">Pengalaman Terpercaya</h4>
           </div>
