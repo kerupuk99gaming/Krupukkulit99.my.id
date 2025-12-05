@@ -12,7 +12,7 @@ const FeatureSection = () => {
   return (
     <div className="max-w-7xl mx-auto">
       
-      <Fade bottom cascade>
+      {/* <Fade bottom cascade>
         <div className="mt-10 flex flex-row flex-wrap justify-center align-middle text-center px-2">
           <div style={{ backgroundColor: "#facc15" }} className="w-1/4 p-8 rounded-xl mx-2 my-5 xxs:w-full xs:w-full sm:w-1/5">
             <h3 className="text-black text-2xl">Gurih</h3>
@@ -31,7 +31,7 @@ const FeatureSection = () => {
             <h4 className="mt-10 text-black opacity-70 text-xl">100%</h4>
           </div>
         </div>
-      </Fade>
+      </Fade> */}
 
       <div className="max-w-7xl mx-auto lg:px-8 md:px-3">
         <div className="mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-10 lg:mt-10 lg:px-0 xl:mt-10 flex flex-col lg:flex-row gap-3 lg:flex-justify">

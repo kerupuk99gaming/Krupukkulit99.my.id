@@ -3,8 +3,8 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { graphql } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
-import LeftIcon from "../images/left-icon.svg"
-import RightIcon from "../images/right-icon.svg"
+import LeftIcon from "../images/cap-kerupuk.png"
+import RightIcon from "../images/cap-kerupuk.png"
 import styled from "styled-components"
 
 const StyledDiv = styled.div`

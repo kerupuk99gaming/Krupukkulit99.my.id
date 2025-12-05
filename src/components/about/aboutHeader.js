@@ -7,16 +7,15 @@ const AboutHeader = () => {
   return (
     <Fade>
       <div className="max-w-7xl mx-auto mt-10">
-        <div className="overflow-hidden rounded-xl max-h-96 m-4">
-          <img alt="Image" src={Image3} className="w-full h-full object-contain"></img>
+        <div className="overflow-hidden rounded-xl max-h-100 m-4">
+          <img alt="Kerupuk Kulit Sapi Asli" src={Image3} className="w-full h-full object-contain"></img>
         </div>
         <div className="mt-10 px-8">
           <h1 className="font-bold text-xl text-black text-gradient bg-gradient-to-r from-pink to-purple">
-            What is Holo?
+            Tentang Kerupuk Kulit Sapi Asli
           </h1>
           <h2 className="text-black text-6xl font-semibold leading-snug xxs:text-lg xs:text-lg sm:text-3xl lg:text-6xl">
-            A visually captivating and lightning-fast open-source theme crafted
-            on the Gatsby framework.
+            Kerupuk kulit sapi asli yang gurih, renyah, tanpa bahan pengawet, dan halal. Camilan sehat favorit keluarga Indonesia, diproses higienis dari bahan pilihan.
           </h2>
         </div>
       </div>

@@ -60,7 +60,7 @@ const Header = () => {
             <img
               className="rounded-xl w-auto h-full object-cover flex justify-center"
               src={hero}
-              alt="kerupuk kulit sapi"
+              alt="kerupuk kulit sapi asli"
             ></img>
           </div>
         </div>

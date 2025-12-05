@@ -96,3 +96,11 @@ body {
     --tw-gradient-to: rgb(250 204 21 / 0) var(--tw-gradient-to-position); /* kuning transparan */
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
+.to-yellow {
+    --tw-gradient-to: #facc15 var(--tw-gradient-to-position); /* kuning */
+}
+.after\:bg-yellow::after {
+    content: var(--tw-content);
+    --tw-bg-opacity: 1;
+    background-color: rgb(250 204 21 / var(--tw-bg-opacity)) /* #827fb9 */;
+}

@@ -1,7 +1,7 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 
-import HeroImage from "../images/3D-liquid-abstract-2.webp"
+import HeroImage from "../images/cap-kerupuk.png"
 import BackGroud from "../images/holographic-background.webp"
 
 const Gallery = () => {
@@ -24,7 +24,7 @@ const Gallery = () => {
             </p>
           </div>
           <div className="rounded-xl w-auto h-full object-cover flex justify-center">
-            <img src={HeroImage} alt="HeroImage"></img>
+            <img src={HeroImage} alt="kerupuk kulit sapi asli"></img>
           </div>
         </div>
       </Fade>
@@ -39,7 +39,7 @@ const Gallery = () => {
               <img
                 src={BackGroud}
                 loading="lazy"
-                alt="HeroImage"
+                alt="kerupuk kulit sapi asli"
                 className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
               />
 
@@ -57,7 +57,7 @@ const Gallery = () => {
               <img
                 src={BackGroud}
                 loading="lazy"
-                alt="HeroImage"
+                alt="kerupuk kulit sapi asli"
                 className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
               />
 
@@ -75,7 +75,7 @@ const Gallery = () => {
               <img
                 src={BackGroud}
                 loading="lazy"
-                alt="HeroImage"
+                alt="kerupuk kulit sapi asli"
                 className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
               />
 
@@ -93,7 +93,7 @@ const Gallery = () => {
               <img
                 src={BackGroud}
                 loading="lazy"
-                alt="HeroImage"
+                alt="kerupuk kulit sapi asli"
                 className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
               />
 
@@ -110,7 +110,7 @@ const Gallery = () => {
               <img
                 src={BackGroud}
                 loading="lazy"
-                alt="HeroImage"
+                alt="kerupuk kulit sapi asli"
                 className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
               />
 
@@ -128,7 +128,7 @@ const Gallery = () => {
               <img
                 src={BackGroud}
                 loading="lazy"
-                alt="HeroImage"
+                alt="kerupuk kulit sapi asli"
                 className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
               />
 
