@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import Input from "../Atoms/input"
 import Button from "../Atoms/button"
 import Fade from "react-reveal/Fade"
@@ -6,6 +6,7 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
 
 const BlogsContainer = ({ data }) => {
+  const [pesan, setPesan] = useState("")
   let posts = data?.map(item => {
     return {
       featuredimage: item.node.frontmatter.featuredimage,
@@ -16,7 +17,6 @@ const BlogsContainer = ({ data }) => {
   })
   console.log("Data ", data)
   console.log("post", posts)
-  // const image = getImage(post.node.frontmatter.featuredimage)
 
   return (
     <div className="max-w-7xl mx-auto mt-10 px-8 text-black">
@@ -24,7 +24,7 @@ const BlogsContainer = ({ data }) => {
         <div className="grid grid-cols-3 gap-4 xxs:grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           {posts.map((blog, i) => (
             <div key={i}>
-              <div className="overflow-hidden  rounded-xl xxs:w-full ">
+              <div className="overflow-hidden rounded-xl xxs:w-full ">
                 <Link
                   to={blog.slug}
                   style={{
@@ -63,20 +63,25 @@ const BlogsContainer = ({ data }) => {
           ))}
         </div>
       </Fade>
-      <div className="w-auto p-8 m-4 h-72 sm:h-96 xs:h-96 xxs:h-96 mt-10 bg-gradient-to-r from-pink to-purple rounded-xl flex flex-col items-center justify-center">
+      <div className="w-auto p-8 m-4 h-72 sm:h-96 xs:h-96 xxs:h-96 mt-10 bg-gradient-to-r from-yellow to-yellow rounded-xl flex flex-col items-center justify-center">
         <h2 className=" text-3xl font-bold text-black text-center">
-          STAY AHEAD OF THE CURVE
+          MAU PESAN KERUPUK KULIT SAPI KAMI?
         </h2>
         <h3 className="text-lg mt-2 opacity-60 text-black text-center">
-          Subscribe to our newsletter, we will only send the good stuff!
+          SILAHKAN KIRIM PESAN MELALUI WHATSAPP KAMI DIBAWAH INI
         </h3>
-        <div className="text-black hover:text-white mt-10 flex flex-col items-center justify-center">
-          <Input placeholder="Enter your email"></Input>
+        <div className="text-black hover:text-black mt-10 flex flex-col items-center justify-center">
+          <Input
+            placeholder="Silahkan Ketik Pesananmu"
+            onChange={e => setPesan(e.target.value)}
+          />
           <a
-            href="https://krupukkulit99.my.id"
-            className="mt-4 transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-black hover:text-white rounded-lg border border-purple  hover:bg-purple"
+            href={`https://wa.me/6281293455225?text=${encodeURIComponent(pesan)}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-4 transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-black hover:text-white rounded-lg border border-yellow  hover:bg-yellow"
           >
-            Join The List
+            Kirim Pesan ke WhatsApp
           </a>
         </div>
       </div>
