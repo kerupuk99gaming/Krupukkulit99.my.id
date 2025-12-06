@@ -63,7 +63,7 @@ const BlogsContainer = ({ data }) => {
           ))}
         </div>
       </Fade>
-      <div className="w-auto p-8 m-4 h-72 sm:h-96 xs:h-96 xxs:h-96 mt-10 bg-gradient-to-r from-yellow to-yellow rounded-xl flex flex-col items-center justify-center">
+      <div className="w-auto p-8 m-4 h-72 sm:h-96 xs:h-96 xxs:h-96 mt-10 bg-yellow bg-gradient-to-r from-yellow to-yellow rounded-xl flex flex-col items-center justify-center">
         <h2 className=" text-3xl font-bold text-black text-center">
           MAU PESAN KERUPUK KULIT SAPI KAMI?
         </h2>
