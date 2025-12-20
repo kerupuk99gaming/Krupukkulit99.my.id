@@ -2,8 +2,9 @@ module.exports = {
   siteMetadata: {
     title: `Kerupuk Kulit Sapi Asli, Gurih, Halal dan Tanpa Bahan Pengawet`,
     description: `Kerupuk kulit sapi asli, gurih, tanpa bahan pengawet, halal, dan cocok untuk camilan sehat keluarga. Hubungi kami untuk pemesanan dan informasi lebih lanjut.`,
-    siteUrl: "https://holo-theme.netlify.app/",
-    author: `Travis Lord <hi@travislord.xyz>`,
+    siteUrl: "https://krupukkulit99.web.id/",
+    author: `Gatsby @Aldiansyah04`,
+    keywords: "kerupuk kulit sapi, kerupuk kulit sapi asli, kerupuk kulit sapi gurih, kerupuk kulit sapi halal, kerupuk kulit sapi tanpa bahan pengawet, camilan sehat, kerupuk kriuk, kerupuk renyah, kerupuk tradisional, cemilan keluarga",
   },
   plugins: [
     `gatsby-plugin-image`,
