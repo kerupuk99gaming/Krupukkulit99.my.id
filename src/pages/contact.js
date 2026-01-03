@@ -17,7 +17,7 @@ const Contact = () => {
 
       <div className="max-w-7xl mx-auto mt-10 flex text-black xxs:flex-col sm:flex-row">
         <Fade duration={1200}>
-          <div className="bg-yellow opacity-70 p-10 rounded-xl w-3/4 m-5 w-auto">
+          <div className="bg-yellow opacity-70 p-10 rounded-xl w-3/4 m-5">
             <h1 className="text-3xl text-white">KONTAK KAMI</h1>
             <h2 className="text-black text-gradient bg-gradient-to-r from-pink to-purple text-4xl font-bold mt-2 xxs:text-lg sm:text-2xl lg:text-4xl">
               Kerupuk Kulit Sapi Asli, Gurih, Halal, Tanpa Bahan Pengawet
