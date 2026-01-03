@@ -108,5 +108,14 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
     `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-purgecss`,
+      options: {
+        printRejected: true, // Untuk debug, lihat class yang dibuang
+        develop: false,      // Aktifkan hanya di production
+        tailwind: true,      // Integrasi dengan Tailwind
+        // safelist: ['class-yang-tidak-boleh-dihapus'],
+      },
+    },
   ],
 }

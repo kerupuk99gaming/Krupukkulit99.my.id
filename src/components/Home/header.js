@@ -33,6 +33,8 @@ const Header = () => {
                   Hubungi Kami
                   <svg
                     className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
+                    width={14}
+                    height={10}
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"

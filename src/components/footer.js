@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="footer bg-gradient-to-r from-yellow to-black p-10 mt-10 rounded-xl">
           <div className="grid grid-cols-2 xxs:grid-cols-1 lg:grid-cols-2">
             <div>
-              <img className="max-h-28 max-w-xs" src={logo} alt="Logo kerupuk kulit 99"
+              <img className="object-contain" src={logo} alt="Logo kerupuk kulit 99"
               width={206}
               height={196}>
               </img>
