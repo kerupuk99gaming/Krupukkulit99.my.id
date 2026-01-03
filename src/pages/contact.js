@@ -5,7 +5,7 @@ import Button from "../components/Atoms/button"
 import Fade from "react-reveal/Fade"
 import Seo from "../components/seo"
 
-import image from "../images/kerupuk-rame.jpg"
+import image from "../images/kerupuk-rame.webp"
 
 const Contact = () => {
   return (

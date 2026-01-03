@@ -3,11 +3,11 @@ import Fade from "react-reveal/Fade"
 
 import HeroImage from "../images/cap-kerupuk.png"
 import Image1 from "../images/kerupuk-home.webp"
-import Image2 from "../images/kerupuk-rame.jpg"
-import Image3 from "../images/kerupuk-kecil.jpg"
+import Image2 from "../images/kerupuk-rame.webp"
+import Image3 from "../images/kerupuk-kecil.webp"
 import Image4 from "../images/kerupuk-bal.webp"
-import Image5 from "../images/kerupuk-2.jpg"
-import Image6 from "../images/kerupuk.jpg"
+import Image5 from "../images/kerupuk-2.webp"
+import Image6 from "../images/kerupuk.webp"
 
 const Gallery = () => {
   return (

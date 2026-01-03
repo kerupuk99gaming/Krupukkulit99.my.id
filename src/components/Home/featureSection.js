@@ -3,9 +3,9 @@ import Fade from "react-reveal/Fade"
 
 // Assets
 import HeroImage from "../../images/kerupuk-1.webp"
-import Image1 from "../../images/kerupuk-bal2.jpg"
-import Image2 from "../../images/kerupuk-rame.jpg"
-import Image3 from "../../images/kerupuk-kecil.jpg"
+import Image1 from "../../images/kerupuk-bal2.webp"
+import Image2 from "../../images/kerupuk-rame.webp"
+import Image3 from "../../images/kerupuk-kecil.webp"
 //
 
 const FeatureSection = () => {

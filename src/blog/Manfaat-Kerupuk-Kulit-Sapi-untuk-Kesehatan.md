@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Manfaat Kerupuk Kulit Sapi untuk Kesehatan
 date: 2024-03-30T18:18:16.118Z
-featuredimage: ../images/kerupuk-2.jpg
+featuredimage: ../images/kerupuk-2.webp
 categories:
   - Kerupuk Kulit Sapi
 description: >-
