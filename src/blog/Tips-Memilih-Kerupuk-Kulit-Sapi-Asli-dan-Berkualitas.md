@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Tips Memilih Kerupuk Kulit Sapi Asli dan Berkualitas
-date: 2024-03-30T15:02:06.069Z
+date: 2025-12-20T15:02:06.069Z
 featuredimage: ../images/kerupuk-2rb.jpg
 categories:
   - Kerupuk Kulit Sapi

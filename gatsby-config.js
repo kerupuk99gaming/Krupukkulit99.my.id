@@ -4,7 +4,7 @@ module.exports = {
     description: `Kerupuk kulit sapi asli, diolah secara higienis tanpa bahan pengawet.`,
     siteUrl: "https://krupukkulit99.web.id/",
     author: `Gatsby @Aldiansyah04`,
-    keywords: "kerupuk kulit sapi, kerupuk kulit sapi asli, kerupuk kulit sapi gurih, kerupuk kulit sapi halal, kerupuk kulit sapi tanpa bahan pengawet, camilan sehat, kerupuk kriuk, kerupuk renyah, kerupuk tradisional, cemilan keluarga",
+    keywords: "kerupuk kulit sapi, kerupuk kulit terdekat, pabrik kerupuk kulit mamat",
   },
   plugins: [
     `gatsby-plugin-image`,

@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Resep Kerupuk Kulit Sapi Gurih dan Renyah
-date: 2024-03-30T15:39:18.616Z
+date: 2025-12-20T15:39:18.616Z
 featuredimage: ../images/kerupuk-bal.webp
 categories:
   - Kerupuk Kulit Sapi

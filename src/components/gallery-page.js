@@ -26,7 +26,7 @@ const Gallery = () => {
             </p>
           </div>
           <div className="rounded-xl w-auto h-full object-cover flex justify-center">
-            <img src={HeroImage} alt="kerupuk kulit sapi asli"></img>
+            <img src={HeroImage} alt="cap kerupuk kulit sapi" width={206} height={196}></img>
           </div>
         </div>
       </Fade>
@@ -41,9 +41,10 @@ const Gallery = () => {
             >
               <img
                 src={Image2}
-                loading="lazy"
                 alt="kerupuk kulit sapi asli"
                 className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+                width={570} 
+                height={759} 
               />
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
               <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
@@ -57,9 +58,10 @@ const Gallery = () => {
             >
               <img
                 src={Image1}
-                loading="lazy"
                 alt="kerupuk kulit sapi asli"
                 className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+                width={1024} 
+                height={576} 
               />
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
               <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
@@ -73,9 +75,10 @@ const Gallery = () => {
             >
               <img
                 src={Image3}
-                loading="lazy"
                 alt="kerupuk kulit sapi asli"
                 className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+                width={720} 
+                height={1280} 
               />
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
               <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
@@ -89,9 +92,10 @@ const Gallery = () => {
             >
               <img
                 src={Image1}
-                loading="lazy"
                 alt="kerupuk kulit sapi asli"
                 className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+                width={1024} 
+                height={576} 
               />
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
               <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
@@ -105,9 +109,10 @@ const Gallery = () => {
             >
               <img
                 src={Image4}
-                loading="lazy"
                 alt="kerupuk kulit sapi asli"
                 className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+                width={640} 
+                height={427} 
               />
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
               <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
@@ -121,9 +126,10 @@ const Gallery = () => {
             >
               <img
                 src={Image1}
-                loading="lazy"
                 alt="kerupuk kulit sapi asli"
                 className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+                width={1024} 
+                height={576} 
               />
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
               <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
@@ -137,9 +143,10 @@ const Gallery = () => {
             >
               <img
                 src={Image5}
-                loading="lazy"
                 alt="kerupuk kulit sapi asli"
                 className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+                width={1024} 
+                height={576} 
               />
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
               <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
@@ -153,9 +160,10 @@ const Gallery = () => {
             >
               <img
                 src={Image1}
-                loading="lazy"
                 alt="kerupuk kulit sapi asli"
                 className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+                width={1024} 
+                height={576} 
               />
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
               <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
@@ -169,9 +177,10 @@ const Gallery = () => {
             >
               <img
                 src={Image6}
-                loading="lazy"
                 alt="kerupuk kulit sapi asli"
                 className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+                width={720} 
+                height={1280} 
               />
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
               <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
@@ -185,9 +194,10 @@ const Gallery = () => {
             >
               <img
                 src={Image1}
-                loading="lazy"
                 alt="kerupuk kulit sapi asli"
                 className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+                width={1024} 
+                height={576} 
               />
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
               <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">

@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Sejarah Kerupuk Kulit Sapi di Indonesia
-date: 2024-03-30T15:02:06.069Z
+date: 2025-12-20T15:02:06.069Z
 featuredimage: ../images/kerupuk-1.webp
 categories:
   - Kerupuk Kulit Sapi

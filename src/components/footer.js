@@ -10,7 +10,10 @@ const Footer = () => {
         <div className="footer bg-gradient-to-r from-yellow to-black p-10 mt-10 rounded-xl">
           <div className="grid grid-cols-2 xxs:grid-cols-1 lg:grid-cols-2">
             <div>
-              <img className="max-h-28 max-w-xs" src={logo} alt="Holo"></img>
+              <img className="max-h-28 max-w-xs" src={logo} alt="Logo kerupuk kulit 99"
+              width={206}
+              height={196}>
+              </img>
               <p className="text-black opacity-70 text-sm mt-5 ">
                 Kerupuk kulit sapi asli, gurih, renyah, dan sehat.<br />
                 Diproses higienis tanpa bahan pengawet.<br />

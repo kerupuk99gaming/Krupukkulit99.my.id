@@ -9,7 +9,10 @@ const Header = () => {
       <div className="max-w-7xl mx-auto lg:px-6 md:px-3">
         <div className="my-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-0 xl:mt-28 flex gap-10 lg:flex-justify lg:flex flex-col lg:flex-row flex-col-reverse">
           <div className="text-center lg:text-left flex flex-col justify-center">
-            <h1 className="text-black text-3xl font-semibold opacity-70">
+            <h1
+              className="text-black text-3xl font-semibold opacity-70"
+              style={{ minHeight: "2.5rem" }} // atau sesuai kebutuhan
+            >
               Selamat Datang di Website Kami!
             </h1>
             <h2 className="text-black text-gradient bg-gradient-to-r from-pink to-purple text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl">
@@ -25,7 +28,7 @@ const Header = () => {
               <div className="rounded-md">
                 <a
                   href="/contact"
-                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-yellow text-white hover:text-black border border-yellow  hover:bg-transparent md:text-lg md:px-10 "
+                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-yellow text-black hover:text-white border border-yellow hover:bg-black md:text-lg md:px-10"
                 >
                   Hubungi Kami
                   <svg
@@ -61,7 +64,10 @@ const Header = () => {
               className="rounded-xl w-auto h-full object-cover flex justify-center"
               src={hero}
               alt="kerupuk kulit sapi asli"
-            ></img>
+              width={1024}
+              height={576}
+              fetchpriority="high"
+            />
           </div>
         </div>
       </div>

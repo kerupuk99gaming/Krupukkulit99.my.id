@@ -15,7 +15,7 @@ const AboutExtra = () => {
           <div className="rounded-md">
             <a
               href="/contact/"
-              className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-yellow text-white hover:text-black border border-yellow  hover:bg-transparent md:text-lg md:px-10 "
+              className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-yellow text-black hover:text-white border border-yellow hover:bg-black md:text-lg md:px-10"
             >
               Hubungi Kami
               <svg

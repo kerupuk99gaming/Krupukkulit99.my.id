@@ -229,6 +229,8 @@ const Contact = () => {
               className="object-cover h-full w-full"
               src={image}
               alt="Kerupuk Kulit Sapi Asli"
+              height={570}
+              width={759}
             ></img>
           </div>
         </Fade>

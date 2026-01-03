@@ -40,6 +40,8 @@ const FeatureSection = () => {
               className="rounded-xl h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
               src={HeroImage}
               alt="HeroImage"
+              height={874}
+              width={489}
             ></img>
           </div>
 
@@ -166,13 +168,13 @@ const FeatureSection = () => {
       <Fade bottom cascade>
         <div className="grid grid-cols-3 mt-10 gap-4 xxs:grid-cols-1 lg:grid-cols-3 px-5">
           <div className="rounded-xl overflow-hidden relative hover:opacity-100 flex justify-center aspect-square">
-            <img alt="Image" src={Image1} className="w-full h-full object-cover" />
+            <img alt="kerupuk kulit sapi" src={Image1} className="w-full h-full object-cover" height={720} width={1280}/>
           </div>
           <div className="rounded-xl overflow-hidden relative hover:opacity-100 flex justify-center aspect-square">
-            <img alt="Image" src={Image2} className="w-full h-full object-cover" />
+            <img alt="kerupuk kulit sapi" src={Image2} className="w-full h-full object-cover" height={570} width={759}/>
           </div>
           <div className="rounded-xl overflow-hidden relative hover:opacity-100 hidden lg:block aspect-square">
-            <img alt="Image" src={Image3} className="w-full h-full object-cover" />
+            <img alt="kerupuk kulit sapi" src={Image3} className="w-full h-full object-cover" height={720} width={1280}/>
           </div>
         </div>
       </Fade>
