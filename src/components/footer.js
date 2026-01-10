@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 
-import logo from "../images/cap-kerupuk.png"
+import logo from "../images/cap-kerupuk.webp"
 
 const Footer = () => {
   return (
@@ -15,7 +15,7 @@ const Footer = () => {
               height={196}>
               </img>
               <p className="text-black opacity-70 text-sm mt-5 ">
-                Kerupuk kulit sapi asli, gurih, renyah, dan sehat.<br />
+                Kerupuk kulit sapi asli Gurih Renyah Tanpa Bahan Pengawet.<br />
                 Diproses higienis tanpa bahan pengawet.<br />
                 Camilan favorit keluarga Indonesia.
               </p>
@@ -54,19 +54,19 @@ const Footer = () => {
             <div className="text-black place-self-end self-center xxs:hidden lg:block">
               <ul className="text-black text-xl font-montserrat font-medium">
                 <li>
-                  <Link to="/" className="text-black">Home</Link>
+                  <Link to="/" className="text-black">Utama</Link>
                 </li>
                 <li>
-                  <Link to="/about" className="text-black">About</Link>
+                  <Link to="/about" className="text-black">Tentang</Link>
                 </li>
                 <li>
-                  <Link to="/gallery" className="text-black">Gallery</Link>
+                  <Link to="/gallery" className="text-black">Produk</Link>
                 </li>
                 <li>
                   <Link to="/blog" className="text-black">Blog</Link>
                 </li>
                 <li>
-                  <Link to="/contact" className="text-black">Contact</Link>
+                  <Link to="/contact" className="text-black">Kontak</Link>
                 </li>
               </ul>
             </div>

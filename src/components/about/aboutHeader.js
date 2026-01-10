@@ -15,7 +15,7 @@ const AboutHeader = () => {
             Tentang Kerupuk Kulit Sapi Asli
           </h1>
           <h2 className="text-black text-6xl font-semibold leading-snug xxs:text-lg xs:text-lg sm:text-3xl lg:text-6xl">
-            Kerupuk kulit sapi asli yang gurih, renyah, tanpa bahan pengawet, dan halal. Camilan sehat favorit keluarga Indonesia, diproses higienis dari bahan pilihan.
+            Kerupuk kulit sapi asli yang Gurih Renyah Tanpa Bahan Pengawet, dan halal. Camilan sehat favorit keluarga Indonesia, diproses higienis dari bahan pilihan.
           </h2>
         </div>
       </div>

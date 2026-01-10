@@ -17,7 +17,7 @@ const FeaturedBlog = () => {
               Kenapa Harus Kerupuk Kulit Sapi Asli?
             </h2>
             <p className="text-lg  text-black opacity-60 mb-6">
-              Kerupuk kulit sapi asli, camilan tradisional khas Indonesia yang dibuat dari kulit sapi pilihan. Renyah, gurih, tanpa bahan pengawet, dan cocok untuk segala suasana. Nikmati kelezatan alami setiap gigitan!
+              Kerupuk kulit sapi asli, camilan tradisional khas Indonesia yang dibuat dari kulit sapi pilihan. Gurih Renyah Tanpa Bahan Pengawet dan cocok untuk segala suasana. Nikmati kelezatan alami setiap gigitan!
             </p>
             <a
               href="/blog/blog-post"

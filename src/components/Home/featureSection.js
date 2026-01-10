@@ -48,11 +48,11 @@ const FeatureSection = () => {
           <div className="lg:w-1/2 sm:text-center lg:text-right flex flex-col justify-center">
             <h2 className="text-black text-4xl font-semibold">KENAPA MEMILIH KERUPUK KULIT SAPI ASLI?</h2>
             <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-darkpurple to-purple">
-              Gurih, Renyah, dan Sehat Setiap Saat!
+              Gurih Renyah Tanpa Bahan Pengawet!
             </h3>
 
             <p className="mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:mr-0">
-              Kerupuk kulit sapi asli, diolah secara higienis tanpa bahan pengawet. Renyah, gurih, dan cocok untuk camilan sehat keluarga atau teman makan Anda setiap hari.
+              Kerupuk kulit sapi asli, diolah secara higienis tanpa bahan pengawet. Gurih Renyah Tanpa Bahan Pengawet, dan cocok untuk camilan sehat keluarga atau teman makan Anda setiap hari.
             </p>
 
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-end">
@@ -139,7 +139,7 @@ const FeatureSection = () => {
           Kerupuk Kulit Sapi Asli, Favorit Keluarga Indonesia
         </h3>
         <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
-          Kami menghadirkan kerupuk kulit sapi asli yang gurih, renyah, dan sehat. Diproses tanpa bahan pengawet, halal, serta cocok untuk camilan maupun pelengkap hidangan keluarga Anda.
+          Kami menghadirkan kerupuk kulit sapi asli yang Gurih Renyah Tanpa Bahan Pengawet. Diproses tanpa bahan pengawet, halal, serta cocok untuk camilan maupun pelengkap hidangan keluarga Anda.
         </p>
       </div>
 

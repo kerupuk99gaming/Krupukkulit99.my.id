@@ -16,7 +16,7 @@ const Header = () => {
               Selamat Datang di Website Kami!
             </h1>
             <h2 className="text-black text-gradient bg-gradient-to-r from-pink to-purple text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl">
-              Kerupuk Kulit Gurih dan Renyah!
+              Kerupuk Kulit Gurih Renyah Tanpa Bahan Pengawet!
             </h2>
 
             {/* <p className="mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
@@ -66,8 +66,8 @@ const Header = () => {
               className="rounded-xl w-auto h-full object-cover flex justify-center"
               src={hero}
               alt="kerupuk kulit sapi asli"
-              width={1024}
-              height={576}
+              width={665}
+              height={374}
               fetchpriority="high"
             />
           </div>

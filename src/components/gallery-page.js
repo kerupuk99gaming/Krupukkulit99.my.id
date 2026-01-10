@@ -1,7 +1,7 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 
-import HeroImage from "../images/cap-kerupuk.png"
+import HeroImage from "../images/cap-kerupuk.webp"
 import Image1 from "../images/kerupuk-home.webp"
 import Image2 from "../images/kerupuk-rame.webp"
 import Image3 from "../images/kerupuk-kecil.webp"
@@ -22,7 +22,7 @@ const Gallery = () => {
               Kerupuk Kulit Sapi Asli
             </h1>
             <p className="text-lg mt-4 text-black xxs:text-sm sm:text-lg">
-              Nikmati kerupuk kulit sapi asli yang gurih, renyah, tanpa bahan pengawet, dan dijamin halal. Tersedia berbagai ukuran kemasan, cocok untuk camilan keluarga, oleh-oleh, maupun pelengkap hidangan favorit Anda.
+              Nikmati kerupuk kulit sapi asli yang Gurih Renyah Tanpa Bahan Pengawet, dan dijamin halal. Tersedia berbagai ukuran kemasan, cocok untuk camilan keluarga, oleh-oleh, maupun pelengkap hidangan favorit Anda.
             </p>
           </div>
           <div className="rounded-xl w-auto h-full object-cover flex justify-center">
@@ -145,8 +145,8 @@ const Gallery = () => {
                 src={Image5}
                 alt="kerupuk kulit sapi asli"
                 className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
-                width={1024} 
-                height={576} 
+                width={665} 
+                height={374} 
               />
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
               <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
@@ -197,7 +197,7 @@ const Gallery = () => {
                 alt="kerupuk kulit sapi asli"
                 className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 width={1024} 
-                height={576} 
+                height={576}
               />
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
               <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">

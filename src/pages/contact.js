@@ -11,8 +11,8 @@ const Contact = () => {
   return (
     <Layout>
       <Seo
-        title="Kerupuk Kulit Sapi Asli, Gurih, Halal dan Tanpa Bahan Pengawet"
-        description="Kerupuk kulit sapi asli, gurih, tanpa bahan pengawet, halal, dan cocok untuk camilan sehat keluarga. Hubungi kami untuk pemesanan dan informasi lebih lanjut."
+        title="Kerupuk Kulit Sapi Asli, Gurih Renyah Tanpa Bahan Pengawet"
+        description="Kerupuk kulit sapi asli, Gurih Renyah Tanpa Bahan Pengawet, halal, dan cocok untuk camilan sehat keluarga. Hubungi kami untuk pemesanan dan informasi lebih lanjut."
       ></Seo>
 
       <div className="max-w-7xl mx-auto mt-10 flex text-black xxs:flex-col sm:flex-row">
@@ -20,7 +20,7 @@ const Contact = () => {
           <div className="bg-yellow opacity-70 p-10 rounded-xl w-3/4 m-5">
             <h1 className="text-3xl text-white">KONTAK KAMI</h1>
             <h2 className="text-black text-gradient bg-gradient-to-r from-pink to-purple text-4xl font-bold mt-2 xxs:text-lg sm:text-2xl lg:text-4xl">
-              Kerupuk Kulit Sapi Asli, Gurih, Halal, Tanpa Bahan Pengawet
+              Kerupuk Kulit Sapi Asli, Gurih Renyah Tanpa Bahan Pengawet
             </h2>
             <p className="text-lg mt-2 opacity-70 w-3/4 xxs:text-xs xxs:w-full sm:text-sm sm:w-3/4">
               Hubungi kami untuk pemesanan, informasi produk, atau kerjasama. Kami

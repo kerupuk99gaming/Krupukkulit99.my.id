@@ -6,7 +6,7 @@ const AboutExtra = () => {
       <div className="mt-10 px-8">
         <h2 className="text-black text-4xl font-semibold">KENAPA KERUPUK KULIT SAPI KAMI BERBEDA?</h2>
         <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-          Camilan Gurih, Renyah, dan Sehat untuk Semua!
+          Camilan Gurih Renyah Tanpa Bahan Pengawet untuk Semua!
         </h3>
         <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
           Kerupuk kulit sapi asli kami dibuat dari kulit sapi pilihan, diproses higienis tanpa bahan pengawet, dan dijamin halal. Rasanya gurih dan renyah, cocok untuk teman makan, camilan keluarga, atau oleh-oleh khas daerah. Nikmati kerenyahan dan kelezatan kerupuk kulit sapi yang sudah dipercaya sejak lama!

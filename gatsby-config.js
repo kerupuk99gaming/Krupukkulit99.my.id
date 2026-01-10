@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `Kerupuk Kulit Sapi Asli, Gurih, Halal dan Tanpa Bahan Pengawet`,
+    title: `Kerupuk Kulit Sapi Asli Gurih Renyah Tanpa Bahan Pengawet Halal`,
     description: `Kerupuk kulit sapi asli, diolah secara higienis tanpa bahan pengawet.`,
     siteUrl: "https://krupukkulit99.web.id/",
     author: `Gatsby @Aldiansyah04`,
-    keywords: "kerupuk kulit sapi, kerupuk kulit terdekat, pabrik kerupuk kulit mamat",
+    keywords: "kerupuk kulit sapi, pabrik kerupuk kulit terdekat, pabrik kerupuk kulit mamat",
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -86,7 +86,7 @@ module.exports = {
         background_color: `#ebebfa`,
         theme_color: `#ebebfa`,
         display: `standalone`,
-        icon: `src/images/cap-kerupuk.png`, // This path is relative to the root of the site.
+        icon: `src/images/cap-kerupuk.webp`, // This path is relative to the root of the site.
       },
     },
     {
@@ -115,6 +115,8 @@ module.exports = {
         develop: false,      // Aktifkan hanya di production
         tailwind: true,      // Integrasi dengan Tailwind
         // safelist: ['class-yang-tidak-boleh-dihapus'],
+        ignore: ['/ignored-file.css'], // Jika ada file CSS tertentu yang tidak ingin dihapus
+        whitelist: ['class-khusus'],   // Class yang tidak boleh dihapus meski tidak terdeteksi
       },
     },
   ],
