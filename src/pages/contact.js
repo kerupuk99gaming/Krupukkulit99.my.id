@@ -19,7 +19,7 @@ const Contact = () => {
         <Fade duration={1200}>
           <div className="bg-yellow opacity-70 p-10 rounded-xl w-3/4 m-5">
             <h1 className="text-3xl text-white">KONTAK KAMI</h1>
-            <h2 className="text-black text-gradient bg-gradient-to-r from-pink to-purple text-4xl font-bold mt-2 xxs:text-lg sm:text-2xl lg:text-4xl">
+            <h2 className="text-black text-gradient bg-gradient-to-r from-black to-black text-4xl font-bold mt-2 xxs:text-lg sm:text-2xl lg:text-4xl">
               Kerupuk Kulit Sapi Asli, Gurih Renyah Tanpa Bahan Pengawet
             </h2>
             <p className="text-lg mt-2 opacity-70 w-3/4 xxs:text-xs xxs:w-full sm:text-sm sm:w-3/4">
@@ -51,7 +51,7 @@ const Contact = () => {
                       </div>
                     </div>
                     <div className="ml-2 grow">
-                      <p className="mb-2 font-bold underline decoration-pink">
+                      <p className="mb-2 font-bold underline decoration-black">
                         Phone
                       </p>
                       <p className="text-neutral-500 mb-2">
@@ -81,7 +81,7 @@ const Contact = () => {
                       </div>
                     </div>
                     <div className="ml-2 grow">
-                      <p className="mb-2 font-bold underline decoration-pink">
+                      <p className="mb-2 font-bold underline decoration-black">
                         Email
                       </p>
                       <p className="text-neutral-500 mb-2">
@@ -113,7 +113,7 @@ const Contact = () => {
                       </div>
                     </div>
                     <div className="ml-2 grow">
-                      <p className="mb-2 font-bold underline decoration-pink">
+                      <p className="mb-2 font-bold underline decoration-black">
                         Lokasi Toko Kami
                       </p>
                       <p className="text-neutral-500 mb-2">
@@ -150,7 +150,7 @@ const Contact = () => {
                       </div>
                     </div>
                     <div className="ml-2 grow">
-                      <p className="mb-2 font-bold underline decoration-pink">
+                      <p className="mb-2 font-bold underline decoration-black">
                         Opening Hours
                       </p>
                       <p className="text-neutral-500 mb-2">24/7</p>
